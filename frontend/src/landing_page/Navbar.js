@@ -156,7 +156,7 @@ function Navbar() {
 
   const handleImageClick = (imgNumber) => {
     if (imgNumber === 1) {
-      window.location.href = "http://localhost:3000"; // Example: open dashboard
+      window.location.href = "https://zerodha-dashboard-dmkf.onrender.com"; // Example: open dashboard
     } else {
       alert(`You clicked image ${imgNumber}`);
     }
